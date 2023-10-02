@@ -166,11 +166,13 @@ body{
 /* quarta section */
 /* classe per la quarta section */
 .fourth-section{
+    /* debug */
     padding: 1rem;
     background-color:#9792e4 ;
 }
 /* classe per la row della quarta section */
 .row-fourth{
+    /* debug */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -178,12 +180,35 @@ body{
 }
 /* classe per la card */
 .card{
+    /* debug */
     width: 100%;
     background-color: white;
     padding: 1rem;
     border-radius: 15px;
 }
-/* classe per il borrone della classe */
+/* classe per il bottone della classe */
 .card a{
+    /* debug */
     text-decoration: none;
+}
+/* quinta section */
+/* classe per la row della quinta section */
+.row-fifth{
+    /* debug */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1rem;
+}
+/* classe per il testo della quinta section */
+.text-fifth{
+    /* debug */
+    width: 100%;
+    padding: 1rem ;
+    line-height: 2rem;
+}
+/* classe per l'immagine e il testo sotto di essa della quinta section */
+.img-fifth{
+    /* debug */
+    width: 100%;
 }

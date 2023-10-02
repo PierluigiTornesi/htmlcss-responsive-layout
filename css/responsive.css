@@ -37,6 +37,15 @@
     .card{
         width: calc(100%/2 - 0.5rem);
     }
+    /* quinta section */
+    /* modifico la larghezza del contenitore del testo */
+    .text-fifth{
+        width: 60%;
+    }
+    /* modifico la larghezza del contenitore dell'immagine */
+    .img-fifth{
+        width: 30%;
+    }
 }
 
 /* breakepoint desktop: 992px */
