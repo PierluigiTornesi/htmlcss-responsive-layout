@@ -163,5 +163,27 @@ body{
     width: 175px;
     border-radius: 50%;
 }
-
-
+/* quarta section */
+/* classe per la quarta section */
+.fourth-section{
+    padding: 1rem;
+    background-color:#9792e4 ;
+}
+/* classe per la row della quarta section */
+.row-fourth{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1rem;
+}
+/* classe per la card */
+.card{
+    width: 100%;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 15px;
+}
+/* classe per il borrone della classe */
+.card a{
+    text-decoration: none;
+}

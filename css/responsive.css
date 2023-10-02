@@ -32,6 +32,11 @@
     .text-test{
         width: 60%;
     }
+    /* quarta section */
+    /* modifico la larghezza della card */
+    .card{
+        width: calc(100%/2 - 0.5rem);
+    }
 }
 
 /* breakepoint desktop: 992px */
@@ -76,5 +81,10 @@
     .planning2{
         width: calc(100%/2 - 2rem);
         margin-top: 5rem;
+    }
+    /* quarta section */
+    /* modifico la larghezza della card */
+    .card{
+        width: calc(100%/3 - 1rem);
     }
 }
