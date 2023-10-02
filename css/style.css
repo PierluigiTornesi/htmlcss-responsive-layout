@@ -4,7 +4,61 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/* custom font */
 body{
     font-family: 'PT Sans', sans-serif;
+}
+/* COMMON CLASS */
+.container{
+    /* debug */
+    margin: 0 auto;
+    width: 80%;
+}
+/* classe per la section dell'header */
+.section-header{
+    /* debug */
+    min-height: 100px;
+    width: 100%;
+    background-color: aqua;
+}
+/* classe per la barra dell'header */
+.header-bar{
+    /* debug */
+    min-height: 100px;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* classi debug per visualizzare il contenuto della barra dell'header */
+.header-bar .logo{
+    /* debug */
+    background-color: red;
+    height: 60px;
+    min-width: 200px;
+}
+.header-bar .bars{
+    /* debug */
+    background-color: green;
+    height: 60px;
+    min-width: 20px;
+}
+.header-bar .link{
+    /* debug */
+    display: none;
+    background-color: yellowgreen;
+    min-width: 300px;
+    height: 60px;
+}
+/* classe per la lista dell'header */
+.link ul{
+    /* debug */
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+/* classe per i link della lista */
+.link a{
+    text-decoration: none;
 }

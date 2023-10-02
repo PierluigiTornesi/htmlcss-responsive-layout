@@ -1,0 +1,21 @@
+/* I breakepoint sono:
+- tablet: 768px
+- desktop: 992px */
+
+/* MOBILE FIRST */
+/* breakepoint tablet: 768px */
+@media screen and (min-width:768px){
+    
+}
+
+/* breakepoint desktop: 992px */
+@media screen and (min-width:992px) {
+    /* modifico i link e li faccio apparire */
+    .header-bar .link{
+        display: block;
+    }
+    /* modifico il simbolo delle barre e lo faccio sparire */
+    .header-bar .bars{
+        display: none;
+    }
+}
