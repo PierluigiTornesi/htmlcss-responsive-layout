@@ -4,6 +4,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* reset img */
+img{
+    max-width: 100%;
+}
 /* custom font */
 body{
     font-family: 'PT Sans', sans-serif;
@@ -20,6 +24,7 @@ body{
     min-height: 100px;
     width: 100%;
     background-color: aqua;
+    padding: 1rem;
 }
 /* classe per la barra dell'header */
 .header-bar{
@@ -36,19 +41,19 @@ body{
     /* debug */
     background-color: red;
     height: 60px;
-    min-width: 200px;
+    width: 33%;
 }
 .header-bar .bars{
     /* debug */
     background-color: green;
     height: 60px;
-    min-width: 20px;
+    width: 33%;
 }
 .header-bar .link{
     /* debug */
     display: none;
     background-color: yellowgreen;
-    min-width: 300px;
+    width: 33%;
     height: 60px;
 }
 /* classe per la lista dell'header */
@@ -61,4 +66,35 @@ body{
 /* classe per i link della lista */
 .link a{
     text-decoration: none;
+}
+/* classe per la prima section */
+.first-section{
+    /* debug */
+    background-color: lightslategray;
+    padding: 1rem;
+}
+/* classe per la row della prima section */
+.row-first{
+    /* debug */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1rem;
+}
+/* classe per le colonne della prima section */
+.col-blue{
+    /* debug */
+    text-align: center;
+    padding: 1rem;
+    background-color: blue;
+    width: 100%;
+    border-radius: 15px;
+}
+/* classe per le info del blocco grande */
+.info-bigger{
+    width: 100%;
+}
+/* classe per l'immagine del blocco grande */
+.img-bigger{
+    width: 100%;
 }

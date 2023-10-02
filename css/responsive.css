@@ -5,11 +5,23 @@
 /* MOBILE FIRST */
 /* breakepoint tablet: 768px */
 @media screen and (min-width:768px){
-    
+    /* prima section */
+    /* modifico il blocco piú grande */
+    #bigger{
+        width: calc(66%);
+    }
+    /* modifico le colonne normali */
+    .col-blue{
+        width: calc(100%/3 - 1rem);
+    }
+    .img-bigger{
+        width: 50%;
+    }
 }
 
 /* breakepoint desktop: 992px */
 @media screen and (min-width:992px) {
+    /* header */
     /* modifico i link e li faccio apparire */
     .header-bar .link{
         display: block;
@@ -17,5 +29,19 @@
     /* modifico il simbolo delle barre e lo faccio sparire */
     .header-bar .bars{
         display: none;
+    }
+    /* prima section */
+    /* modifico il blocco piú grande */
+    #bigger{
+        display: flex;
+        justify-content: space-between;
+    }
+    /* modifico il blocco delle info */
+    .info-bigger{
+        width: calc(100%/2 - 0.5rem) ;
+    }
+    /* modifico il blocco dell'immagine */
+    .img-bigger{
+        width: calc(100%/2 - 0.5rem);
     }
 }
