@@ -212,3 +212,33 @@ body{
     /* debug */
     width: 100%;
 }
+/* sesta section */
+/* classe per la sesta section */
+.sixth-section{
+    /* debug */
+    padding: 1rem;
+    background-color: #9792e4 ;
+}
+/* classe per il testo della sesta section */
+.text-sixth{
+    /* debug */
+    margin: 0 auto;
+    text-align: center;
+    line-height: 2rem;
+}
+/* classe per la settima section */
+.seventh-section{
+    /* debug */
+    width: 100%;
+    padding: 2rem;
+    background-color: black;
+}
+/* classe per il contenitore del testo */
+.text-seventh{
+    /* debug */
+    margin: 0 auto;
+    width: 50%;
+    margin-bottom: 3rem;
+    color: white;
+    text-align: center;
+}

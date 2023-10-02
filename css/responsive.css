@@ -46,6 +46,16 @@
     .img-fifth{
         width: 30%;
     }
+    /* sesta section */
+    /* modifico la larghezza del contenitore del testo */
+    .text-sixth{
+        width: 50%;
+    }
+    /* settima section */
+    /* modifico la larghezza del contenitore del testo */
+    .text-seventh{
+        width: 25%;
+    }
 }
 
 /* breakepoint desktop: 992px */
