@@ -17,6 +17,21 @@
     .img-bigger{
         width: 50%;
     }
+    /* terza section */
+    /* modifico il contenitore del testimonial */
+    .testimonial{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 1rem;
+    }
+    /* modifico la grandezza del contenuto */
+    .img-test{
+        width: 35%;
+    }
+    .text-test{
+        width: 60%;
+    }
 }
 
 /* breakepoint desktop: 992px */
