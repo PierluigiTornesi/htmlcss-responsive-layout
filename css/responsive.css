@@ -44,4 +44,22 @@
     .img-bigger{
         width: calc(100%/2 - 0.5rem);
     }
+    /* seconda section */
+    .row-second{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    /* modifico il blocco del planning 1 */
+    .planning1{
+        width: calc(100%/2 - 2rem);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    /* modifico il blocco del planning 2 */
+    .planning2{
+        width: calc(100%/2 - 2rem);
+        margin-top: 5rem;
+    }
 }

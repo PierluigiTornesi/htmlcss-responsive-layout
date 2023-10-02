@@ -98,3 +98,31 @@ body{
 .img-bigger{
     width: 100%;
 }
+/* seconda section */
+/* classe per la seconda section */
+.second-section{
+    /* debug */
+    background-color: violet;
+    padding: 1rem;
+}
+/* classe per la row della seconda section */
+.row-second{
+    /* debug */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1rem;
+}
+/* classe per il planning 1 */
+.planning1{
+    /* debug */
+    width: 100%;
+}
+/* classe per il planning 2 */
+.planning2{
+    /* debug */
+    background-color: white;
+    width: 100%;
+    border-radius: 30px;
+    text-align: center;
+}
