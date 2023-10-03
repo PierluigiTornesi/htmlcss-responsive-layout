@@ -19,6 +19,18 @@ body{
     width: 80%;
     max-width: 992px;
 }
+/* classe per settare in position fixed l'header */
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+/* classe per spostare sotto il main per renderlo visibile */
+main{
+    margin-top: 150px;
+}
 /* classe per la section dell'header */
 .section-header{
     /* debug */
