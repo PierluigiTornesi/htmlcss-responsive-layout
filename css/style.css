@@ -76,7 +76,6 @@ body{
     padding: 0.5rem;
     border-radius: 20px;
 }
-
 /* classe per la prima section */
 .first-section{
     /* debug */
@@ -110,11 +109,16 @@ body{
     text-align: center;
     font-size: 1.2rem;
 }
+#left{
+    text-align: left;
+}
 /* classe per il testo delle info */
 .testo-info{
     color: #5a6e7f;
     margin-bottom: 2rem;
     font-size: 1rem;
+    text-align: center;
+    line-height: 1.5rem;
 }
 /* classe per il bottone nell'info */
 .button-app{
@@ -156,6 +160,19 @@ body{
 .planning1{
     /* debug */
     width: 100%;
+    color: white;
+}
+/* classe per il titolo del planning1 */
+.titolo-sec{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+/* classe per il testo del planning1 */
+.text-sec{
+    line-height: 1.5rem;
+    font-size: 0.8rem;
 }
 /* classe per il planning 2 */
 .planning2{
@@ -164,6 +181,32 @@ body{
     width: 100%;
     border-radius: 30px;
     text-align: center;
+}
+/* classe per il titolo del planning2 */
+.titolo-sec-black{
+    color: black;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+}
+/* classe per il testo del planning2 */
+.text-sec-cor{
+    color: black;
+    font-style: italic;
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+    margin-bottom: 1rem;
+}
+/* classe per la freccia del planning2 */
+.arrow{
+    display: inline-block;
+    background-color: #9792e4;
+    color: black;
+    font-size: 1.5rem;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    margin-bottom: 1rem;
 }
 /* terza section */
 /* classe per la terza section */
