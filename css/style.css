@@ -39,23 +39,22 @@ body{
 }
 /* classi debug per visualizzare il contenuto della barra dell'header */
 .header-bar .logo{
-    /* debug */
-    background-color: red;
-    height: 60px;
     width: 33%;
 }
 .header-bar .bars{
-    /* debug */
-    background-color: green;
-    height: 60px;
     width: 33%;
 }
+/* classe per il bottone con le barre */
+.bars button{
+    background-color: transparent;
+    border: 0;
+    color: white;
+    width: 100%;
+}
+/* classe per i link */
 .header-bar .link{
-    /* debug */
     display: none;
-    background-color: yellowgreen;
-    width: 33%;
-    height: 60px;
+    width: 50%;
 }
 /* classe per la lista dell'header */
 .link ul{
@@ -63,11 +62,21 @@ body{
     display: flex;
     list-style-type: none;
     justify-content: space-between;
+    gap: 1rem;
 }
 /* classe per i link della lista */
 .link a{
     text-decoration: none;
+    color: white;
 }
+/* id per il bottone cliccabile nei link */
+#button-white{
+    background-color: white;
+    color: black;
+    padding: 0.5rem;
+    border-radius: 20px;
+}
+
 /* classe per la prima section */
 .first-section{
     /* debug */
@@ -85,7 +94,6 @@ body{
 /* classe per le colonne della prima section */
 .col-blue{
     /* debug */
-    text-align: center;
     padding: 1rem;
     background-color:#b5ddff;
     width: 100%;
@@ -94,6 +102,36 @@ body{
 /* classe per le info del blocco grande */
 .info-bigger{
     width: 100%;
+}
+/* classe per il titolo delle info */
+.titolo-info{
+    color: #0084fd ;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.2rem;
+}
+/* classe per il testo delle info */
+.testo-info{
+    color: #5a6e7f;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+}
+/* classe per il bottone nell'info */
+.button-app{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+/* id per personalizzare il bottone */
+#button-blue{
+    background-color: #0084fd;
+    color: white;
+    padding: 0.5rem 2rem;
+    border-radius: 20px;
+    text-decoration: none;
+}
+/* classe per rendere piú grande l'immagine dell'info */
+.img-big{
+    font-size: 5rem;
 }
 /* classe per l'immagine del blocco grande */
 .img-bigger{
@@ -159,6 +197,7 @@ body{
 /* id della foto del testimonial */
 #foto{
     /* debug */
+    object-fit: cover;
     height: 175px;
     width: 175px;
     border-radius: 50%;
