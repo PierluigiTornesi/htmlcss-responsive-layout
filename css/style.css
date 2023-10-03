@@ -219,6 +219,23 @@ body{
     /* debug */
     text-align: center;
 }
+/* classe per l'argomento della terza section */
+.argomento{
+    font-size: 1rem;
+    font-weight: lighter;
+    padding: 1rem 0;
+}
+/* classe per il titolo della terza section */
+.titolo-ter{
+    color: #9792e4;
+    font-size: 1.8rem;
+    padding: 1rem 0;
+}
+/* classe per il testo della terza section */
+.text-ter{
+    line-height: 1.5rem;
+    padding: 1rem 0;
+}
 /* classe per la riga */
 .row-third{
     /* debug */
@@ -236,6 +253,18 @@ body{
     border-radius: 30px;
     background-color:#9792e4;
     text-align: center;
+}
+/* classe per il testo del testimonial */
+.text-test{
+    color: white ;
+    line-height: 1.5rem;
+}
+/* classe per il nome del testimonial */
+.name-test{
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    padding: 1rem 0;
 }
 /* id della foto del testimonial */
 #foto{
