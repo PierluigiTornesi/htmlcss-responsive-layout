@@ -16,7 +16,7 @@ body{
 .container{
     /* debug */
     margin: 0 auto;
-    width: 70%;
+    width: 80%;
     max-width: 992px;
 }
 /* classe per la section dell'header */
@@ -39,10 +39,10 @@ body{
 }
 /* classi debug per visualizzare il contenuto della barra dell'header */
 .header-bar .logo{
-    width: 33%;
+    width: 30%;
 }
 .header-bar .bars{
-    width: 33%;
+    width: 30%;
 }
 /* classe per il bottone con le barre */
 .bars button{
@@ -54,7 +54,7 @@ body{
 /* classe per i link */
 .header-bar .link{
     display: none;
-    width: 50%;
+    width: 70%;
 }
 /* classe per la lista dell'header */
 .link ul{
@@ -434,14 +434,17 @@ body{
     /* debug */
     width: 100%;
     padding: 2rem;
-    background-color: black;
+    background-color:#333333;
 }
 /* classe per il contenitore del testo */
 .text-seventh{
     /* debug */
     margin: 0 auto;
-    width: 50%;
+    width: 70%;
     margin-bottom: 3rem;
     color: white;
     text-align: center;
+}
+.text-seventh a{
+    color: #837fc1;
 }

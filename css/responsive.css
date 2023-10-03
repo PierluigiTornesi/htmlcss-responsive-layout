@@ -27,10 +27,12 @@
     }
     /* modifico la grandezza del contenuto */
     .img-test{
-        width: 35%;
+        width: 30%;
     }
     .text-test{
-        width: 60%;
+        margin-top: 2rem;
+        width: 65%;
+        text-align: left;
     }
     /* quarta section */
     /* modifico la larghezza della card */
@@ -45,6 +47,7 @@
     /* modifico la larghezza del contenitore dell'immagine */
     .img-fifth{
         width: 30%;
+        margin-top: 2rem;
     }
     /* sesta section */
     /* modifico la larghezza del contenitore del testo */
@@ -54,7 +57,7 @@
     /* settima section */
     /* modifico la larghezza del contenitore del testo */
     .text-seventh{
-        width: 25%;
+        width: 50%;
     }
 }
 
