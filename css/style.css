@@ -388,7 +388,46 @@ body{
     /* debug */
     margin: 0 auto;
     text-align: center;
-    line-height: 2rem;
+    line-height: 1.5rem;
+}
+/* classe per il primo testo della sesta section */
+.first-text-six{
+    font-size: 1rem;
+    color: #d5d4f4;
+}
+/* classe per il titolo in bianco della sesta section */
+.tit-text-white{
+    font-size: 1.5rem;
+    color: white;
+    margin-top: 2rem;
+}
+/* classe per il titolo in giallo della sesta section */
+.tit-text-yellow{
+    color: #fdc15f;
+    font-size: 2.5rem;
+    margin-top: 2rem;
+}
+/* classe per il paragrafo della sesta section */
+.paragraph-six{
+    color: white;
+    margin-top: 1.5rem;
+}
+/* classe per il link dentro le privacy policy della sesta section */
+.paragraph-six a{
+    color: inherit;
+}
+/* classe del contenitore del bottone */
+.button-six{
+    margin: 1.5rem 1.5rem;
+}
+/* classe del bottone della sesta section */
+.button-six a{
+    padding: 1rem 4rem;
+    background-color: white;
+    font-weight: bold;
+    color: #9792e4;
+    border-radius: 20px;
+    text-decoration: none;
 }
 /* classe per la settima section */
 .seventh-section{
